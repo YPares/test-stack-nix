@@ -1,0 +1,10 @@
+flags: {}
+extra-package-dbs: []
+packages:
+- '.'
+extra-deps:
+- glpk-hs-0.3.5
+resolver: lts-3.10
+nix-shell:
+    enable: true
+    packages: [glpk]

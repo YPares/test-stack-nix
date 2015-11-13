@@ -7,4 +7,4 @@ extra-deps:
 resolver: lts-3.10
 nix-shell:
     enable: true
-    packages: [glpk]
+    packages: [glpk, pcre]

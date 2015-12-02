@@ -8,3 +8,5 @@ resolver: lts-3.10
 nix:
     enable: true
     packages: [glpk, pcre]
+    #shell-file: shell.nix
+
